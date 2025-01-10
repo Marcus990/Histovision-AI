@@ -1,5 +1,7 @@
 # Histovision-AI
 
+Welcome to my image classification model that models and predicts histological images of breast tissue that may or may not have breast cancer. I decided that I really wanted to step into the world of AI/ML, and this would be my first step. So here goes!
+
 Dataset is sourced from Kaggle at this URL: https://www.kaggle.com/datasets/jocelyndumlao/biglycan-breast-cancer?select=Biglycan+breast+cancer+dataset
 
 To run in your own IDEs/Notebooks, you must download the datasets using these commands in your own notebook:
@@ -16,4 +18,5 @@ zip_ref = zipfile.ZipFile('biglycan-breast-cancer.zip', 'r')
 zip_ref.extractall('/content')
 zip_ref.close()
 ```
+If you are using a virtual notebook such as on Google Colab or Kaggle, you can delete these commands from your code after it is executed.
 Check out this Kaggle forum post for more information: https://www.kaggle.com/discussions/general/74235
