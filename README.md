@@ -2,7 +2,7 @@
 
 Welcome to my image classification model that models and predicts histological images of breast tissue that may or may not have breast cancer. I decided that I really wanted to step into the world of AI/ML, and this would be my first step. So here goes!
 
-Dataset is sourced from Kaggle at this URL: https://www.kaggle.com/datasets/jocelyndumlao/biglycan-breast-cancer?select=Biglycan+breast+cancer+dataset
+Dataset is sourced from Kaggle at this URL: https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset
 
 To run in your own IDEs/Notebooks, you must download the datasets using these commands in your own notebook:
 ```
@@ -12,9 +12,9 @@ files.upload()
 ! mkdir ~/.kaggle // Make sure to go to Kaggle's website and go to your profile, and download your API key as a kaggle.json file. An option will pop up to upload a file when you run this command. Select your kaggle.json file.
 !mv ./kaggle.json ~/.kaggle/
 !chmod 600 ~/.kaggle/kaggle.json
-!kaggle datasets download -d jocelyndumlao/biglycan-breast-cancer // This link is specifically for the breast cancer histological image dataset I am working with. This will change with every dataset!
+!kaggle datasets download -d bhaveshmittal/melanoma-cancer-dataset // This link is specifically for the melanoma cancer histological image dataset I am working with. This will change with every dataset!
 import zipfile
-zip_ref = zipfile.ZipFile('biglycan-breast-cancer.zip', 'r')
+zip_ref = zipfile.ZipFile('melanoma-cancer-dataset.zip', 'r')
 zip_ref.extractall('/content')
 zip_ref.close()
 ```
@@ -30,10 +30,12 @@ My use of the Keras Tuner can be found in the "Histovision AI Hypertuner" Python
 Hypertuning Results:
 ![Screen Shot 2025-01-10 at 4 19 31 AM](https://github.com/user-attachments/assets/a3ed5294-4fe7-42a7-ba5a-2b36f907bb1c)
 
-Incorporated Prefetching, Normalization/Standardization, Data Augmentation, and Dropout Regularization to finetune my model and achieve a validation accuracy rate around 70-90%. My CNN model without transfer learning can be found in the "Histovision AI" Python file.
+Incorporated Prefetching, Normalization/Standardization, Data Augmentation, and Dropout Regularization to finetune my model and achieve a validation accuracy rate around 80-90%. My CNN model without transfer learning can be found in the "Histovision AI" Python file.
 
 Training Results Before Transfer Learning:
-![Screen Shot 2025-01-10 at 4 21 45 AM](https://github.com/user-attachments/assets/75920c05-c081-4b90-b882-d419efa84f5b)
+
+<img width="680" alt="Screen Shot 2025-01-10 at 5 22 21 PM" src="https://github.com/user-attachments/assets/092311a7-4a85-4abe-930b-6551404f3037" />
+<img width="1173" alt="Screen Shot 2025-01-10 at 5 23 39 PM" src="https://github.com/user-attachments/assets/f5650a7d-45b4-4c6a-bd74-7f38ddbda1b3" />
 
 Also finetuned and experimented with other convolutional neural network models best known for breast cancer detection, such as AlexNet, MobilenetV2, and Resnet 50, to incorporate transfer learning and improve validation accuracy results.
 My incorporation of transfer learning from a combination hybrid model of the 3 aforementioned CNN models can be found in the "Histovision AI Transfer learning" Python file.
