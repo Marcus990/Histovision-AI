@@ -1,6 +1,6 @@
 # Histovision-AI
 
-Welcome to my image classification model that models and predicts histological images of skin tissue that may or may not have melanoma. I decided that I really wanted to step into the world of AI/ML, and this would be my first step. So here goes!
+Welcome to my image classification model that models and predicts histological images of skin tissue that may or may not have melanoma. I decided that I really wanted to tackle an issue that affected the lives of many people, and to step into the world of AI/ML, this would be my first step. So here goes!
 
 Dataset is sourced from Kaggle at this URL: https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset
 
