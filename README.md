@@ -1,6 +1,6 @@
 # Histovision-AI
 
-Welcome to my image classification model that models and predicts histological images of breast tissue that may or may not have breast cancer. I decided that I really wanted to step into the world of AI/ML, and this would be my first step. So here goes!
+Welcome to my image classification model that models and predicts histological images of skin tissue that may or may not have melanoma. I decided that I really wanted to step into the world of AI/ML, and this would be my first step. So here goes!
 
 Dataset is sourced from Kaggle at this URL: https://www.kaggle.com/datasets/bhaveshmittal/melanoma-cancer-dataset
 
@@ -37,5 +37,5 @@ Training Results Before Transfer Learning:
 <img width="680" alt="Screen Shot 2025-01-10 at 5 22 21 PM" src="https://github.com/user-attachments/assets/092311a7-4a85-4abe-930b-6551404f3037" />
 <img width="1173" alt="Screen Shot 2025-01-10 at 5 23 39 PM" src="https://github.com/user-attachments/assets/f5650a7d-45b4-4c6a-bd74-7f38ddbda1b3" />
 
-Also finetuned and experimented with other convolutional neural network models best known for breast cancer detection, such as AlexNet, MobilenetV2, and Resnet 50, to incorporate transfer learning and improve validation accuracy results.
+Also finetuned and experimented with other convolutional neural network models best known for cancer detection, such as AlexNet, MobilenetV2, and Resnet 50, to incorporate transfer learning and improve validation accuracy results.
 My incorporation of transfer learning from a combination hybrid model of the 3 aforementioned CNN models can be found in the "Histovision AI Transfer learning" Python file.
