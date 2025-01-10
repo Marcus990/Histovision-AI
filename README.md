@@ -23,3 +23,11 @@ Check out this Kaggle forum post for more information: https://www.kaggle.com/di
 
 To run the hypertuner with Keras Tuner, you must run this command before running the program:
 ```! pip install -q -U keras-tuner```
+
+Utilized Keras Tuner to find the optimal number of units in the first densely-connected layer is 96 and the optimal learning rate for the optimizer is 0.001. The best number of epochs to run to get the most accurate results is 38 epochs.
+My use of the Keras Tuner can be found in the "Histovision AI Hypertuner" Python File.
+
+Incorporated Prefetching, Normalization/Standardization, Data Augmentation, and Dropout Regularization to finetune my model and achieve a validation accuracy rate between 70%-90%.
+
+Also finetuned and experimented with other convolutional neural network models best known for breast cancer detection, such as AlexNet, MobilenetV2, and Resnet 50, to incorporate transfer learning and improve validation accuracy results.
+My incorporation of transfer learning from a combination hybrid model of the 3 aforementioned CNN models can be found in the "Histovision AI Transfer learning" Python file.
