@@ -27,7 +27,14 @@ To run the hypertuner with Keras Tuner, you must run this command before running
 Utilized Keras Tuner to find the optimal number of units in the first densely-connected layer is 96 and the optimal learning rate for the optimizer is 0.001. The best number of epochs to run to get the most accurate results is 38 epochs.
 My use of the Keras Tuner can be found in the "Histovision AI Hypertuner" Python File.
 
-Incorporated Prefetching, Normalization/Standardization, Data Augmentation, and Dropout Regularization to finetune my model and achieve a validation accuracy rate between 70%-90%.
+Hypertuning Results:
+![Screen Shot 2025-01-10 at 4 19 31 AM](https://github.com/user-attachments/assets/a3ed5294-4fe7-42a7-ba5a-2b36f907bb1c)
+
+Incorporated Prefetching, Normalization/Standardization, Data Augmentation, and Dropout Regularization to finetune my model and achieve a validation accuracy rate around 70%. My CNN model without transfer learning can be found in the "Histovision AI" Python file.
+
+Training Results Before Transfer Learning:
+![Screen Shot 2025-01-10 at 4 21 45 AM](https://github.com/user-attachments/assets/75920c05-c081-4b90-b882-d419efa84f5b)
+![Screen Shot 2025-01-10 at 4 53 16 AM](https://github.com/user-attachments/assets/4f4398a6-144a-4a2b-9832-cc8aed599cd2)
 
 Also finetuned and experimented with other convolutional neural network models best known for breast cancer detection, such as AlexNet, MobilenetV2, and Resnet 50, to incorporate transfer learning and improve validation accuracy results.
 My incorporation of transfer learning from a combination hybrid model of the 3 aforementioned CNN models can be found in the "Histovision AI Transfer learning" Python file.
