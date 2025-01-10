@@ -20,3 +20,6 @@ zip_ref.close()
 ```
 If you are using a virtual notebook such as on Google Colab or Kaggle, you can delete these commands from your code after it is executed.
 Check out this Kaggle forum post for more information: https://www.kaggle.com/discussions/general/74235
+
+To run the hypertuner with Keras Tuner, you must run this command before running the program:
+```! pip install -q -U keras-tuner```
